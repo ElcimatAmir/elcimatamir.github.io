@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+</head>
+<body>
+<header id="header">
+	<img src="img/logo.png" id="logo" alt="logo">
+	<h1>Site Name</h1>
+</header>
+
+<div class="mainFrame">
+	<div class="inputsDiv">
+		<h3></h3>
+		<form> 
+			<h3 title="some text"> ВВЕДИТЕ</h3>
+			<input type="text" placeholder="размер кредита" class="input" id="credit" required>
+			<label><input type="range" min="0" max="100" step="1" class="rangeBar" id="rangeBar"> <input type="text"  id="rangeBarValue" placeholder="%" disabled> </label>
+			<input type="text" placeholder="время кредитование" class="input" id="time" required>	
+		</form>	
+	</div>
+
+	<div class="resDiv">
+		<label> <h4>сумма погашение :</h4> <span id="resAll">00.00 </span> </label>
+		<label> <h4>сумма процентов :</h4> <span id="resP">00.00 </span> </label>
+		<label> <h4>сумма кредита :</h4> <span id="c">00.00</span> </label>
+		<label> <h4>срок кредита :</h4> <span id="timeC">00.00</span> </label>
+		<span >ежемесечный платеж :<span id="monthPay">00.00</span></span>		
+
+	</div>	
+</div>
+
+
+<footer>
+<div class="head_footer">
+	<table>
+	<tr>
+	<td style="border:none;">О нас
+		<p>Повседневная практика показывает, что начало повседневной работы по формированию позиции способствует подготовки и реализации системы обучения кадров.</p>
+	</td>
+
+	<td>Наши контакты
+		<p style="text-align: center;">Номер: +799-99-999-999</p>
+		<p style="text-align: center;">Почта: Rand@mail.com</p>
+	</td>
+
+		<td>Ссылки<br> <div id="fix"></div>
+			<a href="vk.com"><img class="image_logo" src="img/logo_vk.png"></a>
+			<a href="telegram.com"><img src="img/logo_telegram.png" class="image_logo"></a>
+			<a href="facebook.com"><img src="img/logo_facebook.svg" class="image_logo"></a>
+			<a href="instagram.com"><img src="img/logo_insta.png" class="image_logo"></a>
+		</td>
+	</tr>
+
+	</table>
+</div>
+
+</footer>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
